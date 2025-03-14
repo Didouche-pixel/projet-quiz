@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interactif</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz Culture Générale</h1>
+            <p>Testez vos connaissances !</p>
+        </header>
+        
+        <main>
+            <section id="quiz-container">
+                <div id="question-container">
+                    <h2 id="question">La question apparaîtra ici</h2>
+                </div>
+                
+                <div id="answers-container">
+                    <!-- Les réponses seront ajoutées ici par JavaScript -->
+                </div>
+                
+                <div id="controls">
+                    <button id="start-btn">Commencer</button>
+                    <button id="next-btn" style="display: none;">Question suivante</button>
+                </div>
+            </section>
+            
+            <section id="result-container" style="display: none;">
+                <h2>Résultats</h2>
+                <p id="score">Votre score : <span id="score-value">0</span>/5</p>
+                <button id="restart-btn">Recommencer</button>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Créé par [Votre prénom], Sadek et Taha - Projet Git</p>
+        </footer>
+    </div>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
