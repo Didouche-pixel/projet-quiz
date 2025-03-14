@@ -73,8 +73,8 @@ restartButton.addEventListener('click', startQuiz);
 // Fonctions
 function startQuiz() {
     quizStarted = true;
-    currentQuestionIndex = 0;
-    score = 0;
+    currentQuestionIndex = 0.0;
+    score = 0.0;
     
     startButton.style.display = 'none';
     nextButton.style.display = 'none';
