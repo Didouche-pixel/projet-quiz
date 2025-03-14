@@ -6,6 +6,7 @@ Ce projet est un quiz interactif simple développé dans le cadre d'un exercice 
 - Tahri Mohamed - Structure HTML
 - Sadek - Styles CSS
 - Taha - Fonctionnalités JavaScript
+- Badreddine - statistiques 
 
 ## Structure du projet
 - `index.html` : Structure principale de la page
