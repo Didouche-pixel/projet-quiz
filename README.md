@@ -3,7 +3,7 @@
 Ce projet est un quiz interactif simple développé dans le cadre d'un exercice pratique Git pour apprendre à travailler avec les branches, les commits, les merge requests et autres fonctionnalités de Git.
 
 ## Équipe
-- [Votre prénom] - Structure HTML
+- Tahri Mohamed - Structure HTML
 - Sadek - Styles CSS
 - Taha - Fonctionnalités JavaScript
 
